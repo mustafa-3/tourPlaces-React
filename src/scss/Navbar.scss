@@ -1,0 +1,21 @@
+
+@import url('./_reset.scss');
+@import url('./_variables.scss');
+
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--card);
+    color: white;
+   
+    div {
+        padding: 1rem;
+        cursor: pointer;
+        &:hover{
+            background-color: var(--background)
+        };
+    }
+}
